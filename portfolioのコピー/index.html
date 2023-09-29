@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http__equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="expires" content="604800" />
+    <meta name="format-detection" content="email=no,telephone=no,address=no" />
+    <title>ポートフォリオ</title>
+    <meta name="description" content="ポートフォリオです" />
+
+    <link rel="icon" href="./img/logo.jpg" />
+  
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/style.css">
+<script src="./js/main.js"></script>
+  </head>
+ 
+  <body class="drawer drawer--right">
+        <!-------------------
+    header
+  ---------------------->
+  <header class="header" role="banner">
+<p class="logo__text" ><a href="#top" class="header__logo">Azu studio</a></p>
+
+
+<div class="header__menu">
+              <ul class="header__nav">
+                <li class="header__navItem">
+                  <a href="#top" class="menu__item">TOP</a>
+                </li>
+                <li class="header__navItem">
+                  <a href="#about" class="menu__item">ABOUT</a>
+                </li>
+                <li class="header__navItem">
+                  <a href="#price" class="menu__item">PRICE</a>
+                </li>
+                <li class="header__navItem">
+                  <a href="#contact" class="menu__item">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+         
+
+
+
+ <button type="button" class="drawer-toggle drawer-hamburger">
+  <span class="sr-only">toggle navigation</span>
+  <span class="drawer-hamburger-icon"></span>
+</button>
+
+<nav class="drawer-nav" role="navigation">
+  <ul class="drawer-menu">
+ 
+    <li><a class="drawer-menu-item" href="#top">TOP</a></li>
+    <li><a class="drawer-menu-item" href="#about">ABOUT</a></li>
+    <li><a class="drawer-menu-item" href="#price">PRICE</a></li>
+    <li><a class="drawer-menu-item" href="#contact">CONTACT</a></li>
+  </ul>
+</nav>
+
+  </header>
+  
+
+
+
+         <!---------------
+    top　
+  ----------------------->
+  
+      
+        <div class="top" id="top">
+        <p class="top__topTitle">いつでも&emsp;<br class="br">最高音質</p>
+      </div>
+  
+ 
+
+    
+    <!---------------
+    about 
+  ----------------------->
+
+    <div class="about section" id="about">
+      <div class="section__container">
+        <div class="midashi">
+          <div class="midashi__title">ABOUT</div>
+          <p class="midashi__subText">
+           あなたの音源を最高の音質に仕上げます
+          </p>
+          </div>
+     
+      
+     
+<div class="contents">
+      <div class="portfolio">
+          <p class="text">編集前</p>
+          <audio class="audio" controls type="audio/wav" src="./audio/after.wav"></audio>
+          
+         
+<p class="text">編集後</p>
+<audio class="audio" controls type="audio/wav" src="./audio/before.wav"></audio>
+</div>   
+</div>
+</div>
+</div>
+      <!---------------
+  price
+----------------------->
+
+      <div class="price section" id="price">
+        <div class="section__container">
+        <div class="midashi">
+          <div class="midashi__title">PRICE</div>
+          <p class="midashi__subText">
+           料金はこちら
+          </p>
+          </div>
+     
+     
+        <div class="contents">
+          <div class="pricing__table">
+    <div class="plan">
+      <h2 class="plan__title">Basic Plan</h2>
+      <p  class="text">10,000円（税込）/1曲</p>
+      <button class="details__btn" data__plan="Basic Plan">詳細</button>
+    </div>
+    <div class="plan">
+      <h2  class="plan__title">Pro Plan</h2>
+      <p  class="text">30,000円（税込）/1曲</p>
+      <button class="details__btn" data__plan="Pro Plan">詳細</button>
+    </div>
+    
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal__content">
+      <span class="close__btn">&times;</span>
+      <h2 id="modal__title"></h2>
+      <p id="modal__description"></p>
+    </div>
+  </div>
+
+  </div>
+      </div>
+     </div>
+     </div>
+     </div>
+    </div>
+<!------------------
+   注意点
+  ------------------------->
+
+
+  <div class="precaution section">
+        <div class="section__container">
+
+        <div class="midashi">
+          <div class="midashi__title">注意点</div>
+          <p class="midashi__subText">
+          必ずご確認ください
+          </p>
+          </div>
+      
+
+      <div class="contents">
+<div class="precaution__detail">
+            <p class ="precaution__title">
+              【音源について】</p>
+              <p class ="precaution__text">
+・トラブル防止のため、できる限り頭出しされた状態（instと歌のタイミングを合わせた状態）での書き出しをお願いいたします。<br>
+・音源は『wav 44.1kHz 以上 16bit 以上』が推奨です。<br>
+・重度のノイズや部屋鳴り、音割れ、音程・タイミングのずれがある際はリテイクいただく場合がございます。<br><br>
+
+⚠️よくわからない場合は、ひとまずお送りいただければ確認いたしますので、お気軽にご連絡ください！<br></p>
+
+<p class ="precaution__title">
+【動画投稿について】<br></p>
+<p class ="precaution__text">
+・投稿動画などのクレジットには『MIX / D_MIX』等の表記をお願いいたします。<br>
+</p>
+
+</div>
+
+
+</div>  
+</div>  
+</div>
+</div>
+ <!------------------
+   よくある質問
+  ------------------------->
+
+  <div class="question section" >
+    <div class="section__container">
+
+    <div class="midashi">
+      <div class="midashi__title">よくある質問</div>
+      <p class="midashi__subText">
+      よくある質問はこちら
+      </p>
+      </div>
+
+
+  <div class="contents">
+<div class="acco">
+<div class="accordion">
+<p class="panel__q">初心者で何も分かりません</p>
+</div>
+<div class="panel">
+<p class="details">全く問題ございません！
+
+基本的に全てお任せ頂ければ、ジャンルに沿ったおすすめの音作りで作成いたしますのでご安心くださいませ。</p>
+
+</div>
+
+<div class="accordion">
+<p class="panel__q">キャンセル料はありますか？</p>
+</div>
+<div class="panel">
+<p class="details">
+  見積もり・相談の段階であればキャンセル料金はかかりません！編集に取り掛かった段階でキャンセルをされる場合はプラン料金の半額を頂きます
+</p>
+
+</div>
+
+<div class="accordion">
+<p class="panel__q">メールが届きません</p>
+</div>
+<div class="panel">
+<p class="details">
+ 迷惑メールに入っている場合がございますのでご確認をよろしくお願いいたします。入っていない場合はお手数ですが再度お問い合わせをお願いいたします。    </p>
+
+</div>
+</div>
+
+</div>
+      </div>
+      </div>
+    </div>
+      <!------------------
+    contact
+  ------------------------->
+      <div class="contactForm section" id="contact">
+        <div class="section__container">
+
+        <div class="midashi">
+          <div class="midashi__title">CONTACT</div>
+          <p class="midashi__subText">
+         お問い合わせはこちら
+          </p>
+          </div>
+     
+         
+      <div class="contents">
+<div class="contact">
+
+<form action="contact.php" method="post" enctype="multipart/form-data" class="form">
+  <label for="name" class="contact__menu">お名前:</label><br>
+  <input type="text" id="name" name="name" placeholder="音楽太郎" required><br>
+
+  <label for="email" class="contact__menu">メールアドレス:</label><br>
+  <input type="email" id="email" name="email" placeholder="music@gmail.com" required><br>
+
+  <label for="data" class="contact__menu">データ:</label><br>
+  <input type="file" id="data" name="data" class="data"><br>
+
+  <label for="message" class="contact__menu">メッセージ:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50" placeholder="こちらにメッセージを入力してください" required class="message"></textarea><br>
+
+  <input type="submit" value="送信">
+</form>
+ 
+</div>
+<p class="contact__text">携帯メールアドレスやicloudメールは届きにくくなっておりますのでGmailやYahooメールで登録してください。<br><br>
+  ご登録頂いたメールアドレスはプライバシーポリシーに基づき厳重に管理します。</p>
+  </div>
+</div>
+  
+
+  
+  </body>
+</html>
